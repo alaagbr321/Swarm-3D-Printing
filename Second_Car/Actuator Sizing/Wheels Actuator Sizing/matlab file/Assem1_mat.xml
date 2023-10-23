@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/28/23||21:13:44" using="Simscape Multibody Link Version 7.0" from="SolidWorks 30.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem1_mat" uid="Assem1_mat" version="339">
+<AssemblyFile name="Assem1_mat.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="motor_2-3" uid="motor_2-3" entityUid="motor_2*:*Default">
+<Transform>
+<Rotation>0 -0.7071067811865388 -0.70710678118655612 0.99999999999999978 1.6020703905261543e-16 0 1.4803402245953595e-16 -0.70710678118655623 0.70710678118653858</Rotation>
+<Translation>0.008393911763296194 0.11860002683742607 0.11956601399835846</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem1^Assem1_mat-1" uid="Assem1^Assem1_mat-1" entityUid="Assem1^Assem1_mat" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="8cm wheel-2" uid="8cm wheel-2" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>-0.70710678118655612 3.9377137876635904e-16 -0.70710678118653858 3.9666978527311965e-16 1 1.6020703905261531e-16 0.70710678118653858 -1.6720441135050727e-16 -0.70710678118655612</Rotation>
+<Translation>-0.040976875495243044 0.11739946158639865 0.072519848612612833</Translation>
+</Transform>
+</Instance>
+<Instance name="8cm wheel-1" uid="8cm wheel-1" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>-0.70710678118655634 3.7414522303281169e-16 -0.7071067811865388 3.6891420965749074e-16 1 1.6020703905261548e-16 0.7071067811865388 -1.4757825561696034e-16 -0.70710678118655634</Rotation>
+<Translation>-0.030099646860337916 0.11739946158639868 0.083397077247518159</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem4-1" uid="Assem4-1" grounded="true" entityUid="Assem4" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.087093276772330988 0.12150576631789547 0.20126712049009829</Translation>
+</Transform>
+<Instance name="Part1-1" uid="Part1-1" grounded="true" entityUid="Part1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0068156775592456142 0.018244260519530597 -0.0098174190419513252</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor_2-1" uid="motor_2-1" entityUid="motor_2*:*Default">
+<Transform>
+<Rotation>1.6653345369377476e-16 0.77218931158983461 -0.63539252991077677 1 -1.4045021878151862e-16 0 0 -0.63539252991077677 -0.77218931158983461</Rotation>
+<Translation>0.15257726928637477 0.11860002683742606 0.1178628202085442</Translation>
+</Transform>
+</Instance>
+<Instance name="nema 17 stepper-1" uid="nema 17 stepper-1" entityUid="nema 17 stepper" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.37042368681544141 0.064942797361728366 -0.2164425525486923</Translation>
+</Transform>
+<Instance name="socket button head cap screw_am-6" visible="false" uid="socket button head cap screw_am-6" entityUid="socket button head cap screw_am*:*B18.3.4M - 3 x 0.5 x 5 SBHCS --S">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.018597605536332218 -3.3571141453817011e-05 0.079949999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="socket button head cap screw_am-4" visible="false" uid="socket button head cap screw_am-4" entityUid="socket button head cap screw_am*:*B18.3.4M - 3 x 0.5 x 5 SBHCS --S">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.04959760553633219 0.030966428858546197 0.079949999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="socket button head cap screw_am-5" visible="false" uid="socket button head cap screw_am-5" entityUid="socket button head cap screw_am*:*B18.3.4M - 3 x 0.5 x 5 SBHCS --S">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.018597605536332218 0.030966428858546183 0.079949999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="socket button head cap screw_am-10" visible="false" uid="socket button head cap screw_am-10" entityUid="socket button head cap screw_am*:*B18.3.4M - 3 x 0.5 x 5 SBHCS --S">
+<Transform>
+<Rotation>-1.3877787807814457e-16 0.70710678118654757 -0.70710678118654768 0 -0.70710678118654768 -0.70710678118654746 -1 0 0</Rotation>
+<Translation>-0.04959760553633219 -3.3571141453803133e-05 0.079949999999999993</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem2^Assem1_mat-1" uid="Assem2^Assem1_mat-1" entityUid="Assem2^Assem1_mat" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="8cm wheel-1" uid="8cm wheel-1" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>0.70710678118655246 0 0.70710678118654258 0 1 -1.0456405659004106e-16 -0.70710678118654258 0 0.70710678118655246</Rotation>
+<Translation>0.19065484528651261 0.1173994615863985 0.29950232564877044</Translation>
+</Transform>
+</Instance>
+<Instance name="8cm wheel-2" uid="8cm wheel-2" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>0.70710678118655268 0 0.70710678118654247 0 1 -1.0456405659004107e-16 -0.70710678118654247 1.3924969860613945e-16 0.70710678118655268</Rotation>
+<Translation>0.2015320739214177 0.11739946158639869 0.3103795542836757</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem3^Assem1_mat-1" uid="Assem3^Assem1_mat-1" entityUid="Assem3^Assem1_mat" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="8cm wheel-2" uid="8cm wheel-2" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>-0.63539252991077622 3.1220142070546772e-16 0.77218931158983495 3.2066361085569494e-16 1 -1.4045021878151919e-16 -0.77218931158983495 1.5837199308045831e-16 -0.63539252991077622</Rotation>
+<Translation>0.20417845234438969 0.11739946158639865 0.073274321477992232</Translation>
+</Transform>
+</Instance>
+<Instance name="8cm wheel-1" uid="8cm wheel-1" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>-0.1152138521149827 -0.62485953249289949 0.77218931158983417 -0.98342284977861349 0.18132704854298676 0 -0.14001880878702541 -0.75938861337226038 -0.63539252991077733</Rotation>
+<Translation>0.19390530849731033 0.11676582478224111 0.084999219128933406</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor_2-4" uid="motor_2-4" entityUid="motor_2*:*Default">
+<Transform>
+<Rotation>5.2391765648873975e-16 -0.70710678118655479 0.70710678118654002 1 1.6691059831193935e-16 -5.7402085706116876e-16 2.8787042465219547e-16 0.70710678118654002 0.70710678118655479</Rotation>
+<Translation>0.0083939117633013392 0.11860002683742607 0.26333338889793556</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem4^Assem1_mat-1" uid="Assem4^Assem1_mat-1" entityUid="Assem4^Assem1_mat" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="8cm wheel-2" uid="8cm wheel-2" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>0.66269558947332519 0.24664662108488808 -0.70710678118655446 -0.34881099665174975 0.93719309035801857 1.1102230246251565e-16 0.66269558947333806 0.24664662108489271 0.70710678118654069</Rotation>
+<Translation>-0.039021370142960199 0.11690150524941437 0.31233505963595876</Translation>
+</Transform>
+</Instance>
+<Instance name="8cm wheel-1" uid="8cm wheel-1" entityUid="8cm wheel*:*Default">
+<Transform>
+<Rotation>0.70710678118654013 0 -0.70710678118655479 0 1 1.6691059831193965e-16 0.70710678118655479 -1.3748525312003319e-16 0.70710678118654013</Rotation>
+<Translation>-0.027775024987538859 0.11739946158639866 0.3018269475215698</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="matlabmm-1" uid="matlabmm-1" entityUid="matlabmm*:*Default">
+<Transform>
+<Rotation>0.99507907867663437 0.099083940071338528 0 0 0 -1 -0.099083940071338528 0.99507907867663437 0</Rotation>
+<Translation>0.08027759921308554 0.24275002683742608 0.14644970144814712</Translation>
+</Transform>
+</Instance>
+<Instance name="motor_2-2" uid="motor_2-2" entityUid="motor_2*:*Default">
+<Transform>
+<Rotation>1.6653345369377353e-16 0.70710678118654269 0.70710678118655224 1 -1.0456405659004105e-16 -1.3094981221252508e-16 0 0.70710678118655224 -0.70710678118654269</Rotation>
+<Translation>0.1521612866628784 0.1186000268374261 0.26333338889793051</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.089658116907962646 0.0030000000000000027 -0.068444913472371319</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor_2-1</Uid>
+</InstancePath>
+<Position>0.021149999999999988 0.01013683920319422 -0.015000000000000291</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-1</Uid>
+</InstancePath>
+<Position>0.021149999999999988 0.049999999999999989 0.021150000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.068444913472370736 0.0030000000000000027 0.089658116907958135</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor_2-2</Uid>
+</InstancePath>
+<Position>0.021150000000000002 0.010136839203194248 -0.015000000000000319</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.089658116907967197 0.0030000000000000027 0.068444913472361729</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor_2-2</Uid>
+</InstancePath>
+<Position>0.021149999999999974 0.010136839203194081 0.014999999999999764</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-2</Uid>
+</InstancePath>
+<Position>0.021149999999999974 0.049999999999999989 0.021150000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>-0.089658116907958718 0.0030000000000000027 0.068444913472366226</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor_2-4</Uid>
+</InstancePath>
+<Position>0.021150000000000016 0.010136839203194248 -0.015000000000000319</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>-0.089658116907958718 0.0030000000000000027 0.11087132034355909</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor_2-4</Uid>
+</InstancePath>
+<Position>0.021149999999999988 0.040136839203193886 0.014999999999999958</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-4</Uid>
+</InstancePath>
+<Position>0.021149999999999988 0.049999999999999989 0.021150000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>-0.089658116907963228 0.0030000000000000027 -0.11087132034355968</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor_2-3</Uid>
+</InstancePath>
+<Position>0.021149999999999988 0.040136839203194274 -0.015000000000000055</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>-0.11087132034355965 0 -0.089658116907963284</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor_2-3</Uid>
+</InstancePath>
+<Position>0.021150000000000016 0.040136839203193914 0.014999999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-3</Uid>
+</InstancePath>
+<Position>0.021150000000000016 0.049999999999999975 0.021149999999999988</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric30">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>1.6653345369377348e-16 0 -0.044999999999999846</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>matlabmm-1</Uid>
+</InstancePath>
+<Position>0 0 0.10999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>matlabmm-1</Uid>
+</InstancePath>
+<Position>0 0 0.10000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor_2-3</Uid>
+</InstancePath>
+<Position>0 0.087999999999999981 0</Position>
+<Axis>0 -0.99999999999999989 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem1^Assem1_mat-1</Uid>
+<Uid>8cm wheel-1</Uid>
+</InstancePath>
+<Position>-0.001643755889947765 0.0012005652510274079 0.018284646538233001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-3</Uid>
+</InstancePath>
+<Position>0 0.087999999999999981 0</Position>
+<Axis>0 0.99999999999999989 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1^Assem1_mat-1</Uid>
+<Uid>8cm wheel-2</Uid>
+</InstancePath>
+<Position>-0.001643755889947765 0.0012005652510275744 0.019822918963883964</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor_2-2</Uid>
+</InstancePath>
+<Position>0 0.088000000000000023 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem2^Assem1_mat-1</Uid>
+<Uid>8cm wheel-1</Uid>
+</InstancePath>
+<Position>-0.0016437558899477511 0.0012005652510274079 0.018284646538233029</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-2</Uid>
+</InstancePath>
+<Position>0 0.088000000000000023 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem2^Assem1_mat-1</Uid>
+<Uid>8cm wheel-2</Uid>
+</InstancePath>
+<Position>-0.0016437558899477789 0.0012005652510275883 0.019822918963883995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem3^Assem1_mat-1</Uid>
+<Uid>8cm wheel-1</Uid>
+</InstancePath>
+<Position>-0.0016437558899477789 0.0012005652510274356 0.018284646538232974</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor_2-1</Uid>
+</InstancePath>
+<Position>0 0.087999999999999967 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem3^Assem1_mat-1</Uid>
+<Uid>8cm wheel-2</Uid>
+</InstancePath>
+<Position>-0.0016437558899477511 0.0012005652510275883 0.019822918963883968</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-1</Uid>
+</InstancePath>
+<Position>0 0.087999999999999967 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor_2-4</Uid>
+</InstancePath>
+<Position>0 0.087999999999999967 0</Position>
+<Axis>0 -0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem4^Assem1_mat-1</Uid>
+<Uid>8cm wheel-1</Uid>
+</InstancePath>
+<Position>-0.0016437558899478066 0.0012005652510274217 0.018284646538232974</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor_2-4</Uid>
+</InstancePath>
+<Position>0 0.087999999999999967 0</Position>
+<Axis>0 0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4^Assem1_mat-1</Uid>
+<Uid>8cm wheel-2</Uid>
+</InstancePath>
+<Position>-0.0016437558899477511 0.0012005652510276021 0.019822918963883968</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Assem1^Assem1_mat" uid="Assem1^Assem1_mat" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem1_mat.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem4" uid="Assem4" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem4.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="nema 17 stepper" uid="nema 17 stepper" version="229">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="nema 17 stepper.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem2^Assem1_mat" uid="Assem2^Assem1_mat" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem1_mat.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem3^Assem1_mat" uid="Assem3^Assem1_mat" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem1_mat.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem4^Assem1_mat" uid="Assem4^Assem1_mat" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem1_mat.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="8cm wheel" uid="8cm wheel*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="8cm wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.070304714594462442</Mass>
+<CenterOfMass>-0.001643756355223082 0.0012005652510275002 0.012131556835626001</CenterOfMass>
+<Inertia>3.1816134838958645e-05 3.1816142637904582e-05 6.1497023239147664e-05 -3.3895442187087819e-12 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="8cm wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part1" uid="Part1*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.48261942789819051</Mass>
+<CenterOfMass>-5.2124237519657608e-16 0.0014999999999999998 0.00060675290021901208</CenterOfMass>
+<Inertia>0.0023939918342538698 0.0047945975315166435 0.0024013296264046215 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="matlabmm" uid="matlabmm*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="matlabmm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.80201718853493842</Mass>
+<CenterOfMass>0 0 0.051139684280622044</CenterOfMass>
+<Inertia>0.0011969395063187998 0.0011969395063187995 0.00098614343639567663 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="matlabmm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor_2" uid="motor_2*:*Default" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.091735351499642959</Mass>
+<CenterOfMass>-2.8484632905384514e-05 0.026230317232786429 6.9524940303714824e-11</CenterOfMass>
+<Inertia>3.7151058357039074e-05 2.6501769342498991e-05 3.713346338236774e-05 -9.9123776068443693e-14 -8.8638305991508301e-14 -3.2255635484875305e-09</Inertia>
+</MassProperties>
+<GeometryFile name="motor_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="socket button head cap screw_am" uid="socket button head cap screw_am*:*B18.3.4M - 3 x 0.5 x 5 SBHCS --S" version="1223">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="socket button head cap screw_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.7937364154148104e-05</Mass>
+<CenterOfMass>0.002674845857101676 0 0</CenterOfMass>
+<Inertia>1.3175711946121036e-10 2.7155349889477838e-10 2.7155349889477843e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 5 SBHCS --S_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
